@@ -1,0 +1,21 @@
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "WARP-Amnezia",
+      "server": "162.159.192.1",
+      "server_port": 500,
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8778:f5c7:1d36:c9ff:b496/128"
+      ],
+      "private_key": "SCibSEi0krecsp8gkOUAgBY4HAMdKK45hgDwjyTZzWg=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1280,
+      
+      "reserved": [0, 0, 0],
+      "init_packet_junk_size": 120,
+      "response_packet_junk_size": 911
+    }
+  ]
+}
